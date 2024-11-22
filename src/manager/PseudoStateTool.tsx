@@ -60,7 +60,7 @@ export const PseudoStateTool = () => {
       <IconButton
         key="pseudo-state"
         title="Select CSS pseudo states"
-        active={options.some(isActive)}
+        active={options.some(isActive).toString()}
       >
         <ButtonIcon />
       </IconButton>
